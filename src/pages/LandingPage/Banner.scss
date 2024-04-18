@@ -1,0 +1,25 @@
+.landing_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 130px 0;
+
+  .landing_banner_left {
+    width: 75%;
+
+    .left_text {
+      margin-bottom: 35px;
+      h1 {
+        color: #fff;
+        font-size: 85px;
+        line-height: 80px;
+        font-family: "DM Sans", sans-serif;
+        margin: 0;
+      }
+    }
+  }
+  .landing_banner_right {
+    width: 50%;
+    text-align: center;
+  }
+}
