@@ -52,6 +52,7 @@ function Header() {
                 height: "34px",
                 background: "#5C27C0",
                 fontSize: "12px !important",
+                textTransform: "none !important",
 
                 "&:hover": {
                   background: "#fff",
@@ -72,6 +73,7 @@ function Header() {
                 height: "34px",
                 background: "#5C27C0",
                 fontSize: "12px !important",
+                textTransform: "none !important",
 
                 "&:hover": {
                   background: "#fff",

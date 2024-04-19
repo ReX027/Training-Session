@@ -1,6 +1,6 @@
 import groupImg from "../../assets/images/Group 48095371.png";
 import Button from "@mui/material/Button";
-
+import RightArrow from '../../assets/icons/RightArrow'
 import "./Banner.scss";
 
 function Banner() {
@@ -19,9 +19,9 @@ function Banner() {
             sx={{
               border: "solid 1px #5C27C0",
               color: "#fff",
-              borderRadius: "5px",
-              width: "169px",
-              height: "45px",
+              borderRadius: "8px",
+              width: "160px",
+              height: "50px",
               background: "#5C27C0",
               fontSize: "12px !important",
               textTransform: "none !important",
@@ -40,9 +40,9 @@ function Banner() {
             sx={{
               border: "solid 1px #5C27C0",
               color: "#fff",
-              borderRadius: "5px",
-              width: "169px",
-              height: "45px",
+              borderRadius: "8px",
+              width: "160px",
+              height: "50px",
               background: "#5C27C0",
               fontSize: "12px !important",
               marginLeft: "10px",
@@ -56,7 +56,7 @@ function Banner() {
             }}
           >
             Watch video
-
+            <RightArrow/>
           </Button>
         </div>
       </div>

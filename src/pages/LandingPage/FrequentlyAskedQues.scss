@@ -1,0 +1,26 @@
+.frequently_asked_ques {
+  padding: 100px 0;
+  .heading {
+    text-align: center;
+    margin-bottom: 50px;
+
+    h4 {
+      color: #fff;
+      font-family: "DM Sans", sans-serif;
+      font-size: 50px;
+      line-height: 60px;
+      width: 650px;
+      margin: 0 auto 20px;
+    }
+
+    span {
+      color:  rgb(249,249,249,0.8);
+      font-size: 22px;
+      font-family: "Inter", sans-serif;
+    }
+  }
+  .accordion {
+    width: 69%;
+    margin: 0 auto;
+  }
+}

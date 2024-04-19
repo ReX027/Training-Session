@@ -1,5 +1,8 @@
 import imageOfExperience from '../../assets/images/Product Image.png'
 import LeafIcon from '../../assets/icons/LeafIcon'
+import LandingPageLockIcon from '../../assets/icons/LandingPageLockIcon';
+import LandingPageAiProctoring from '../../assets/icons/LandingPageAiProctoring';
+import LandingPageSeamless  from '../../assets/icons/LandingPageSeamless';
 
 
 import './ExperienceTheFeature.scss'
@@ -32,48 +35,39 @@ function ExperienceTheFeature() {
           </div>
         </div>
         <div className='box'>
-          <LeafIcon/>
+          <LandingPageLockIcon/>
           <div className='title'>
-            <span>AI Video Interview</span>
+            <span>Customized Question Generation</span>
           </div>
           <div className='description'>
-            <p>Conduct interviews with our AI-powered platform, eliminating scheduling conflicts and reducing time-to-hire.</p>
+            <p>Tailored questions for each candidate based on their profile, ensuring a personalized interview experience.</p>
+          </div>
+        </div>
+        <div className='box'>
+          <LandingPageAiProctoring/>
+          <div className='title'>
+            <span>AI Proctoring</span>
+          </div>
+          <div className='description'>
+            <p>Ethical testing ensured through 100% AI proctoring, maintaining integrity throughout the evaluation process.</p>
           </div>
         </div>
         <div className='box'>
           <LeafIcon/>
           <div className='title'>
-            <span>AI Video Interview</span>
+            <span>Evaluation Tools:</span>
           </div>
           <div className='description'>
-            <p>Conduct interviews with our AI-powered platform, eliminating scheduling conflicts and reducing time-to-hire.</p>
+            <p>Objective assessment of skills and suitability, providing comprehensive insights into candidate capabilities.</p>
           </div>
         </div>
         <div className='box'>
-          <LeafIcon/>
+          <LandingPageSeamless/>
           <div className='title'>
-            <span>AI Video Interview</span>
+            <span>Seamless Integration</span>
           </div>
           <div className='description'>
-            <p>Conduct interviews with our AI-powered platform, eliminating scheduling conflicts and reducing time-to-hire.</p>
-          </div>
-        </div>
-        <div className='box'>
-          <LeafIcon/>
-          <div className='title'>
-            <span>AI Video Interview</span>
-          </div>
-          <div className='description'>
-            <p>Conduct interviews with our AI-powered platform, eliminating scheduling conflicts and reducing time-to-hire.</p>
-          </div>
-        </div>
-        <div className='box'>
-          <LeafIcon/>
-          <div className='title'>
-            <span>AI Video Interview</span>
-          </div>
-          <div className='description'>
-            <p>Conduct interviews with our AI-powered platform, eliminating scheduling conflicts and reducing time-to-hire.</p>
+            <p>Intuitive platform designed for ease of use, compatible with existing HR systems for effortless adoption.</p>
           </div>
         </div>
       </div>

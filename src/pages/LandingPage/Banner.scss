@@ -17,6 +17,21 @@
         margin: 0;
       }
     }
+    .left_btn {
+      button {
+        svg {
+          width: 20px;
+          margin-left: 5px;
+        }
+        &:hover {
+          svg {
+            path {
+              fill: #5C27C0;
+            }
+          }
+        }
+      }
+    }
   }
   .landing_banner_right {
     width: 50%;
