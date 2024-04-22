@@ -17,13 +17,13 @@ function Footer() {
             <nav className='navigation'>
               <ul>
                 <li>
-                  <a href='#'>AI Interviewing</a>
+                  <a href='# '>AI Interviewing</a>
                 </li>
                 <li>
-                  <a href='#'>JD Creation & Parsing</a>
+                  <a href='# '>JD Creation & Parsing</a>
                 </li>
                 <li>
-                  <a href='#'>Bulk Screening</a>
+                  <a href='# '>Bulk Screening</a>
                 </li>
               </ul>
             </nav>
@@ -33,16 +33,16 @@ function Footer() {
             <nav className='navigation'>
               <ul>
                 <li>
-                  <a href='#'>Solutions</a>
+                  <a href='# '>Solutions</a>
                 </li>
                 <li>
-                  <a href='#'>Products</a>
+                  <a href='# '>Products</a>
                 </li>
                 <li>
-                  <a href='#'>Resources</a>
+                  <a href='# '>Resources</a>
                 </li>
                 <li>
-                  <a href='#'>Integration</a>
+                  <a href='# '>Integration</a>
                 </li>
               </ul>
             </nav>
@@ -52,16 +52,16 @@ function Footer() {
             <nav className='navigation'>
               <ul>
                 <li>
-                  <a href='#'>Blogs</a>
+                  <a href='# '>Blogs</a>
                 </li>
                 <li>
-                  <a href='#'>Webinars</a>
+                  <a href='# '>Webinars</a>
                 </li>
                 <li>
-                  <a href='#'>Customer Stories</a>
+                  <a href='# '>Customer Stories</a>
                 </li>
                 <li>
-                  <a href='#'>Survey Reports</a>
+                  <a href='# '>Survey Reports</a>
                 </li>
               </ul>
             </nav>
@@ -71,16 +71,16 @@ function Footer() {
             <nav className='navigation'>
               <ul>
                 <li>
-                  <a href='#'>About us</a>
+                  <a href='# '>About us</a>
                 </li>
                 <li>
-                  <a href='#'>Careers</a>
+                  <a href='# '>Careers</a>
                 </li>
                 <li>
-                  <a href='#'>Terms & Privacy</a>
+                  <a href='# '>Terms & Privacy</a>
                 </li>
                 <li>
-                  <a href='#'>Invest in us</a>
+                  <a href='# '>Invest in us</a>
                 </li>
               </ul>
             </nav>

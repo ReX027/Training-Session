@@ -15,27 +15,27 @@ function Header() {
           <nav className="navigation">
             <ul>
               <li>
-                <a href="#">Solutions
+                <a href="# ">Solutions
                   <DownArrowIcon/>
                 </a>
               </li>
               <li>
-                <a href="#">Products
+                <a href="# ">Products
                   <DownArrowIcon/>
                 </a>
               </li>
               <li>
-                <a href="#">Resources
+                <a href="# ">Resources
                   <DownArrowIcon/>
                 </a>
               </li>
               <li>
-                <a href="#">Integration
+                <a href="# ">Integration
                   <DownArrowIcon/>
                 </a>
               </li>
               <li>
-                <a href="#">Company
+                <a href="# ">Company
                   <DownArrowIcon/>
                 </a>
               </li>
@@ -53,6 +53,7 @@ function Header() {
                 background: "#5C27C0",
                 fontSize: "12px !important",
                 textTransform: "none !important",
+                fontWeight: "400 !important",
 
                 "&:hover": {
                   background: "#fff",
@@ -74,6 +75,7 @@ function Header() {
                 background: "#5C27C0",
                 fontSize: "12px !important",
                 textTransform: "none !important",
+                fontWeight: "400 !important",
 
                 "&:hover": {
                   background: "#fff",

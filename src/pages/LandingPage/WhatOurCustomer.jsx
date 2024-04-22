@@ -1,9 +1,10 @@
 // import "slick-carousel/slick/slick.css";
-import './WhatOurCustomer.scss'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Colon from '../../assets/icons/LandingPageColon'
+
+import './WhatOurCustomer.scss'
 
 function WhatOurCustomerSay() {
   var settings = {
