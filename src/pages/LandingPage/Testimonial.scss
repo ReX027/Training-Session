@@ -7,9 +7,17 @@
     align-items: center;
     padding: 40px 0;
 
+    @media only screen and (max-width: 1024px) {
+      padding: 10px 0;
+    }
+
     .testimonial_img {
       width: 170px;
       margin-right: 40px;
+
+      @media only screen and (max-width: 1024px) {
+        width: 110px;
+      }
     }
   }
 }

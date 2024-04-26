@@ -12,7 +12,7 @@ function Footer() {
     <footer className='footer'>
       <div className='inner_footer'>
         <div className="upper_row">
-          <div className='footer_col'>
+          <div className='footer_col width'>
             <h3>Services</h3>
             <nav className='navigation'>
               <ul>
@@ -28,7 +28,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div className='footer_col'>
+          <div className='footer_col width'>
             <h3>Browse</h3>
             <nav className='navigation'>
               <ul>
@@ -47,7 +47,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div className='footer_col'>
+          <div className='footer_col width'>
             <h3>Learn</h3>
             <nav className='navigation'>
               <ul>
@@ -66,7 +66,7 @@ function Footer() {
               </ul>
             </nav>
           </div>
-          <div className='footer_col'>
+          <div className='footer_col width'>
             <h3>Company</h3>
             <nav className='navigation'>
               <ul>

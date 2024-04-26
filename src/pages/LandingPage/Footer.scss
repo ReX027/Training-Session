@@ -1,13 +1,34 @@
 .footer {
   padding: 50px 0 40px; 
 
+  @media only screen and (max-width: 1024px) {
+    padding: 35px 0 30px;
+  }
+
   .inner_footer {
     .upper_row {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+
+      @media only screen and (max-width: 1024px) {
+        flex-wrap: wrap;
+      }
+
+      // @media only screen and (max-width: 767px) {
+      //   // display: block;
+      // }
       
       .footer_col {
+        @media only screen and (max-width: 767px) {
+          margin-top: 20px;
+
+          &:nth-child(1),
+          &:nth-child(2) {
+            margin-top: 0;
+          }
+        }
+        
         h3 {
           color: #fff;
           margin: 0;
@@ -22,17 +43,35 @@
     
             li {
               padding: 10px 0;
+
+              @media only screen and (max-width: 1024px) {
+                padding: 8px 0;
+              }
   
               a {
                 color: #fff;
                 font-family: "Inter", sans-serif;
                 font-size: 16px;
+
+                @media only screen and (max-width: 1024px) {
+                  font-size: 14px;
+                }
               }
             }
           }
         }
       }
+      .width {
+        width: 20%;
+
+        @media only screen and (max-width: 767px) {
+          width: 50%;
+        }
+      }
       .input_section {
+        @media only screen and (max-width: 1024px) {
+          margin-top: 20px;
+        }
         input {
           background-color: #fff;
           color: rgba(0,0,0,0.2);
@@ -52,6 +91,18 @@
       align-items: center;
       width: 15%;
 
+      @media only screen and (max-width: 1024px) {
+        margin: 30px 0 30px;
+      }
+
+      .social {
+        svg {
+          @media only screen and (max-width: 1024px) {
+            margin-right: 8px;
+            width: 20px;
+          }
+        }
+      }
     }
   }
   .white_line {
@@ -66,12 +117,24 @@
     align-items: center;
     margin-top: 30px;
 
+    @media only screen and (max-width: 1024px) {
+      width: 60%;
+    }
+
     .copyright {
       margin-right: 15px;
       span {
         color: #FFFFFF;
         font-family: "Inter", sans-serif;
         font-size: 14px;
+
+        @media only screen and (max-width: 1024px) { 
+          font-size: 12px;
+        }
+
+        @media only screen and (max-width: 767px) { 
+          font-size: 9px;
+        }
       }
     }
   }

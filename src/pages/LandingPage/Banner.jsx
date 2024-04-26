@@ -1,6 +1,7 @@
 import groupImg from "../../assets/images/Group 48095371.png";
 import Button from "@mui/material/Button";
 import RightArrow from '../../assets/icons/RightArrow'
+
 import "./Banner.scss";
 
 function Banner() {

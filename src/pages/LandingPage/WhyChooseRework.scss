@@ -1,11 +1,16 @@
 .why_choose_rework_page {
   background-color: #fff;
   padding: 100px 0;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 50px 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    padding: 25px 0;
+  }
   
   .container {
-    width: 1200px;
-    margin: 0 auto;
-
     .heading {
       text-align: center;
       margin-bottom: 20px;
@@ -16,20 +21,47 @@
         line-height: 60px;
         width: 490px;
         margin: 0 auto 20px;
+
+        @media only screen and (max-width: 1024px) {
+          font-size: 43px;
+          line-height: 46px;
+          width: 100%;
+          margin: 0 auto 13px; 
+        }
+        @media only screen and (max-width: 767px) {
+          font-size: 25px;
+          line-height: 34px;
+          width: 243px;
+        }
       }
     }
 
     .main_content {
       display: flex;
       justify-content: center;
-      justify-content: center;
+      align-items: flex-start;
       margin-top: 60px;
+
+      @media only screen and (max-width: 1024px) {
+        display: block;
+      }
+
+      @media only screen and (max-width: 767px) {
+        margin-top: 30px;
+      }
 
       .left_col {
         width: 30%;
+        height: 809px;
         background: linear-gradient(163deg, rgba(248,222,176,1) 0%, rgba(190,121,0,1) 82%);
         border-radius: 25px;
         padding: 40px 25px;
+
+        @media only screen and (max-width: 1024px) {
+          margin: 0 auto;
+          height: 100%;
+          width: 100%;
+        }
 
         .title {
           h4 {
@@ -38,11 +70,29 @@
             color: #080808;
             width: 90%;
             margin: 0;
+
+            @media only screen and (max-width: 1024px) {
+              font-size: 36px;
+              width: 100%;
+            }
+
+            @media only screen and (max-width: 767px) {
+              font-size: 30px;
+            }
           }
         }
 
         .description {
           margin: 100px 0;
+
+          @media only screen and (max-width: 1024px) {
+            margin: 30px 0;
+          }
+
+          @media only screen and (max-width: 767px) {
+            margin: 12px 0;
+          }
+
           p {
             font-family: "Inter", sans-serif;
             color:  rgb(8,8,8,0.8);
@@ -50,6 +100,17 @@
             margin: 0;
             line-height: 37px;
             width: 75%;
+
+            @media only screen and (max-width: 1024px) {
+              line-height: 29px;
+              font-size: 20px;
+              width: 100%;
+            }
+
+            @media only screen and (max-width: 767px) {
+              line-height: 19px;
+              font-size: 14px;
+            }
           }
         }
       }
@@ -57,6 +118,12 @@
       .right_col {
         width: 70%;
         margin-left: 20px;
+
+        @media only screen and (max-width: 1024px) {
+          width: 100%;
+          margin-left: 0;
+          margin-top: 20px;
+        }
 
         .upper_row {
           border-radius: 25px;
@@ -71,11 +138,29 @@
               color: #F9F9F9;
               width: 90%;
               margin: 0;
+
+              @media only screen and (max-width: 1024px) {
+                font-size: 36px;
+                width: 100%;
+              }
+
+              @media only screen and (max-width: 767px) {
+                font-size: 30px;
+              }
             }
           }
   
           .description {
             margin: 35px 0px;
+
+            @media only screen and (max-width: 1024px) {
+              margin: 30px 0;
+            }
+
+            @media only screen and (max-width: 767px) {
+              margin: 14px 0;
+            }
+
             p {
               font-family: "Inter", sans-serif;
               color:   rgb(249,249,249,0.8);
@@ -84,6 +169,17 @@
               margin: 0;
               line-height: 37px;
               width: 70%;
+
+              @media only screen and (max-width: 1024px) {
+                line-height: 29px;
+                font-size: 20px;
+                width: 100%;
+              }
+
+              @media only screen and (max-width: 767px) {
+                line-height: 19px;
+                font-size: 13px;
+              }
             }
           }
         }
@@ -98,6 +194,10 @@
             width: 50%;
             padding: 60px 20px;
 
+            @media only screen and (max-width: 767px) {
+              padding: 20px 20px;
+            }
+
             .title {
               h4 {
                 font-family: "Inter", sans-serif;
@@ -105,11 +205,20 @@
                 color: #080808;
                 width: 75%;
                 margin: 0;
+
+                @media only screen and (max-width: 767px) {
+                  font-size: 18px;
+                }
               }
             }
     
             .description {
               margin: 35px 0px;
+
+              @media only screen and (max-width: 767px) { 
+                margin: 20px 0px;
+              }
+
               p {
                 font-family: "Inter", sans-serif;
                 color:  rgb(8,8,8,0.8);;
@@ -117,6 +226,12 @@
                 margin: 0;
                 line-height: 30px;
                 width: 70%;
+
+                @media only screen and (max-width: 767px) {
+                  font-size: 14px;
+                  line-height: 20px;
+                  width: 100%;
+                }
               }
             }
           }
@@ -128,6 +243,10 @@
             padding: 60px 20px;
             margin-left: 20px;
 
+            @media only screen and (max-width: 767px) {
+              padding: 20px 20px;
+            }
+
             .title {
               h4 {
                 font-family: "Inter", sans-serif;
@@ -135,11 +254,19 @@
                 color: #080808;
                 width: 65%;
                 margin: 0;
+
+                @media only screen and (max-width: 767px) {
+                  font-size: 18px;
+                }
               }
             }
     
             .description {
               margin: 35px 0px 62px;
+
+              @media only screen and (max-width: 767px) { 
+                margin: 20px 0px;
+              }
 
               p {
                 font-family: "Inter", sans-serif;
@@ -148,6 +275,12 @@
                 margin: 0;
                 line-height: 30px;
                 width: 75%;
+
+                @media only screen and (max-width: 767px) {
+                  font-size: 14px;
+                  line-height: 20px;
+                  width: 100%;
+                }
               }
             }
           }
