@@ -11,6 +11,9 @@ function Header() {
 
   return (
     <section className="lading_header">
+      <div className="version">
+        <p>The wait is over! Experience the website’s remarkable upgrade,<span>&nbsp; Version 2.0</span></p>
+      </div>
       <div className="container">
         <div className="inner_lading_header">
           <div className="logo">

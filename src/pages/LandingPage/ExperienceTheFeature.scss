@@ -85,20 +85,20 @@
 
   .box_list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 65px;
+    padding: 0 130px;
 
     @media only screen and (max-width: 1024px) {
       text-align: center;
     }
 
     .box {
-      width: 30%;
+      width: 35%;
       margin-bottom: 50px;
-      margin-right: 35px;
-
+      
       @media only screen and (max-width: 1024px) {
         width: 40%;
       }
