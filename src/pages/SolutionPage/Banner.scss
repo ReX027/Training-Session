@@ -1,0 +1,80 @@
+.solution_page_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 130px 0;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 60px 0;
+  }
+
+  @media only screen and (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+
+  .landing_banner_left {
+    width: 75%;
+
+    @media only screen and (max-width: 767px) {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .left_text {
+      margin-bottom: 35px;
+
+      @media only screen and (max-width: 767px) {
+        text-align: center;
+      }
+
+      h1 {
+        color: #fff;
+        font-size: 85px;
+        line-height: 80px;
+        margin: 0;
+
+        @media only screen and (max-width: 1024px) {
+          font-size: 43px;
+          line-height: 50px;
+        }
+      }
+      span {
+        color: #F9F9F9;
+        margin-top: 7px;
+        display: block;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        line-height: 27px;
+        width: 50%;
+      }
+    }
+    .left_btn {
+      @media only screen and (max-width: 767px) {
+        text-align: center;
+      }
+      button {
+        svg {
+          width: 20px;
+          margin-left: 5px;
+        }
+        &:hover {
+          svg {
+            path {
+              fill: #5C27C0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .landing_banner_right {
+    width: 50%;
+    text-align: center;
+
+    @media only screen and (max-width: 767px) {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+}

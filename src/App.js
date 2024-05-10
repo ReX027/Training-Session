@@ -1,8 +1,12 @@
-import LandingPage from './pages/LandingPage'
+// import LandingPage from './pages/LandingPage'
+import SolutionPage from './pages/SolutionPage'
 
 function App() {
   return (
-    <LandingPage />
+    <>
+      {/* <LandingPage /> */}
+      <SolutionPage/>
+    </>
   );
 }
 
