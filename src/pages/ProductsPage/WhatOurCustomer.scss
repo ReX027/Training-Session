@@ -1,0 +1,108 @@
+.product_page_what_our_customer_say {
+  padding: 100px 0;
+
+  .container {
+    .heading {
+      text-align: center;
+      margin-bottom: 20px;
+
+      h4 {
+        color: #fff;
+        font-size: 54px;
+        line-height: 60px;
+        width: 690px;
+        margin: 0 auto 20px;
+
+        @media only screen and (max-width: 1024px) {
+          font-size: 43px;
+          line-height: 46px;
+          width: 392px;
+          margin: 0 auto 13px;
+        }
+
+        @media only screen and (max-width: 767px) {
+          font-size: 25px;
+          line-height: 34px;
+          width: 243px;
+        }
+      }
+    }
+
+    .slider {
+      margin-top: 70px;
+
+      @media only screen and (max-width: 767px) {
+        margin-top: 35px;
+      }
+
+      .slider_box {
+        padding: 40px 20px;
+        border-radius: 25px;
+        background-color: #F1F1F1;
+        height: 390px;
+        margin: 0 10px;
+
+        @media only screen and (max-width: 1024px) {
+          padding: 15px 20px;
+        }
+
+        @media only screen and (max-width: 767px) { 
+          height: 290px;
+        }
+
+        .upper_row {
+          margin-bottom: 60px;
+
+          // svg {
+          //   @media only screen and (max-width: 1024px) {
+          //     width: 20px;
+          //   }
+          // }
+
+          .description {
+            width: 75%;
+
+            @media only screen and (max-width: 1024px) {
+              width: 100%;
+            }
+
+            p {
+              font-size: 16px;
+              color: rgba(8, 8, 8, 0.8);
+              margin: 0;
+              
+              @media only screen and (max-width: 1024px) {
+                font-size: 14px;
+              }
+              span {
+                font-weight: 500;
+                color: rgba(8, 8, 8, 0.8);
+              }
+            }
+          }
+        }
+
+        .lower_row {
+          .name {
+            span {
+              font-weight: 600;
+              color: rgba(8, 8, 8, 0.8);
+            }
+          }
+
+          .designation {
+            p {
+              color: rgba(0, 0, 0, 0.6);
+              margin: 0;
+              display: inline;
+            }
+          }
+        }
+      }
+
+      .slick-dots {
+        bottom: -75px;
+      }
+    }
+  }
+}

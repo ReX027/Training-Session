@@ -36,7 +36,7 @@ function WhatOurCustomerSay() {
   };
 
   return (
-    <div className="solution_page_what_our_customer_say">
+    <div className="product_page_what_our_customer_say">
       <div className="container">
         <div className="heading">
           <h4>Success Stories from Startup Founders Like You</h4>
@@ -96,6 +96,7 @@ function WhatOurCustomerSay() {
                   </div>
                 </div>
               </div>
+
             </div>
           </Slider>
         </div>
