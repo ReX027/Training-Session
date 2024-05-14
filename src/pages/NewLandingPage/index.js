@@ -1,6 +1,7 @@
 import Header from './Header'
 import Banner from './Banner.jsx'
 import Testimonial from './Testimonial.jsx'
+import Experience from './Experience.jsx'
 
 import './style.scss'
 
@@ -13,6 +14,7 @@ function NewLandingPage() {
         <Banner/>
       </div>
       <Testimonial/>
+      <Experience/>
       {/* <div className='container'>
         <ExperienceTheFeature/>
       </div>
