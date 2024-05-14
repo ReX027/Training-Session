@@ -1,57 +1,57 @@
-.experience_feature {
-  padding: 100px 0 0;
+// .experience_feature {
+//   padding: 100px 0 0;
 
-  @media only screen and (max-width: 1024px) {
-    padding: 60px 0 0;
-  }
+//   @media only screen and (max-width: 1024px) {
+//     padding: 60px 0 0;
+//   }
 
-  .heading {
-    text-align: center;
-    margin-bottom: 20px;
+//   .heading {
+//     text-align: center;
+//     margin-bottom: 20px;
 
-    h4 {
-      color: #fff;
-      font-size: 54px;
-      line-height: 60px;
-      width: 599px;
-      margin: 0 auto 20px;
+//     h4 {
+//       color: #fff;
+//       font-size: 54px;
+//       line-height: 60px;
+//       width: 599px;
+//       margin: 0 auto 20px;
 
-      @media only screen and (max-width: 1024px) {
-        font-size: 43px;
-        line-height: 46px;
-        width: 445px;
-        margin: 0 auto 13px;    
-      }
-      @media only screen and (max-width: 767px) {
-        font-size: 25px;
-        line-height: 34px;
-        width: 275px;
-      }
-    }
+//       @media only screen and (max-width: 1024px) {
+//         font-size: 43px;
+//         line-height: 46px;
+//         width: 445px;
+//         margin: 0 auto 13px;    
+//       }
+//       @media only screen and (max-width: 767px) {
+//         font-size: 25px;
+//         line-height: 34px;
+//         width: 275px;
+//       }
+//     }
 
-    span {
-      color: rgba(249,249,249,0.8);
-      width: 355px;
-      display: inline-block;
-      font-size: 14px;
-      font-family: "Inter", sans-serif;
+//     span {
+//       color: rgba(249,249,249,0.8);
+//       width: 355px;
+//       display: inline-block;
+//       font-size: 14px;
+//       font-family: "Inter", sans-serif;
 
-      @media only screen and (max-width: 1024px) {
-        font-size: 12px;
-      }
-      @media only screen and (max-width: 767px) {
-        font-size: 10px;
-        width: 220px;
-      }
-    }
-  }
-  .image {
-    text-align: center;
-  }
-}
+//       @media only screen and (max-width: 1024px) {
+//         font-size: 12px;
+//       }
+//       @media only screen and (max-width: 767px) {
+//         font-size: 10px;
+//         width: 220px;
+//       }
+//     }
+//   }
+//   .image {
+//     text-align: center;
+//   }
+// }
 // Discover_power
-.discover_power {
-  padding: 30px 0;
+.solution_page_discover_power {
+  padding: 80px 0;
 
   @media only screen and (max-width: 1024px) {
     padding: 15px 0;
@@ -98,7 +98,8 @@
     .box {
       width: 35%;
       margin-bottom: 50px;
-      
+      text-align: center;
+
       @media only screen and (max-width: 1024px) {
         width: 40%;
       }

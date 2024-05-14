@@ -1,8 +1,16 @@
-import LandingPage from './pages/LandingPage'
+// import LandingPage from './pages/LandingPage'
+// import SolutionPage from './pages/SolutionPage'
+// import ProductsPage from './pages/ProductsPage'
+import NewLandingPage from './pages/NewLandingPage'
 
 function App() {
   return (
-    <LandingPage />
+    <>
+      {/* <LandingPage /> */}
+      {/* <SolutionPage/> */}
+      {/* <ProductsPage/> */}
+      <NewLandingPage />
+    </>
   );
 }
 
