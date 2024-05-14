@@ -1,0 +1,31 @@
+.banner_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 0;
+  
+  .banner_section_left {
+    width: 50%;
+
+    .heading {
+      margin-bottom: 35px;
+
+      h2 {
+        color: #F9F9F9;
+        font-size: 73px;
+        margin: 0;
+        line-height: 80px;
+      }
+    }
+  }
+
+  .banner_section_right {
+    width: 50%;
+
+    .banner_section_right_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

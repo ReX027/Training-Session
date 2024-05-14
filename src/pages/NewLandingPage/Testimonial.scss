@@ -1,0 +1,15 @@
+.testimonial {
+  background-color: #fff;
+
+  .testimonial_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+
+  }
+  .testimonial_img {
+    width: 130px;
+    margin: 0 30px;
+  }
+}
