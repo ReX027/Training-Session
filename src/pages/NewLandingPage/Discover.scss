@@ -1,0 +1,76 @@
+.disover-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .disover-heading-container{
+        width: 50%;
+        color: #fff;
+        margin-bottom: 40px;
+        text-align: center;
+        align-self: center;
+
+        .disover-heading{
+            font-size: 54px;
+        }
+    }
+
+    .disover-info-container-1{
+        width: 80%;
+        height: 264px;
+        display: flex;
+        color: #fff;
+        justify-content: space-between;
+
+        .dicover-info-card{
+            width: 30%;
+            height: 264px;
+            padding-top: 44px;
+            padding-left: 11px;
+            padding-right: 11px;
+
+            .dicover-info-card-heading{
+                font-size: 19px;
+            }
+
+            .dicover-info-card-para{
+                font-size: 17px;
+            }
+        }
+
+        
+    }
+
+    .disover-info-container-2{
+        width: 80%;
+        height: 264px;
+        display: flex;
+        color: #fff;
+        margin-bottom: 85px;
+        justify-content: space-evenly;
+
+        .dicover-info-card{
+            width: 30%;
+            height: 264px;
+            padding-top: 44px;
+            padding-left: 11px;
+            padding-right: 11px;
+
+            .dicover-info-card-heading{
+                font-size: 19px;
+            }
+
+            .dicover-info-card-para{
+                font-size: 17px;
+            }
+        }
+
+        
+    }
+
+
+
+}
